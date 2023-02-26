@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.imag img {
+  margin-top: 0.8rem;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 50%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: darkgreen;
+}
+body {
+  border: 1px solid rosybrown;
+  border-radius: 2rem;
+  background-color: #ffe8d6;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-link {
+  display: flex;
+  gap: 3rem;
+  transition: all 0.3s;
+}
+.social-icon {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 2rem;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.social-link:hover {
+  transform: scaleY(-4rem);
+}
+.blue {
+  color: rgb(58, 115, 180);
+}
+.blue1 {
+  color: rgb(74, 74, 136);
+}
+.pinkred {
+  color: #ec606b;
+}
+.red {
+  color: rgb(192, 12, 12);
+}
+.black {
+  color: #111;
+}
